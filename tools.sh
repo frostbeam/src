@@ -25,6 +25,7 @@ sleep 2
 sudo apt update -y
 sudo apt update -y
 sudo apt dist-upgrade -y
+sudo apt install python -y
 sudo apt-get remove --purge ufw firewalld -y 
 sudo apt-get remove --purge exim4 -y 
 
@@ -64,4 +65,3 @@ yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "Dependencies successfully installed..."
 sleep 3
 clear
-
