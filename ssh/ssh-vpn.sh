@@ -14,9 +14,9 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Jakarta
-organization=www.aixxy.id
-organizationalunit=www.aixxy.id
-commonname=www.aixxy.id
+organization=none
+organizationalunit=none
+commonname=none
 email=admin@aixxy.id
 
 # simple password minimal
