@@ -250,7 +250,7 @@ echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 cat> /etc/issue.net << END
 <br>
-<b><font color="blue"> WELCOME TO PREMIUM SERVER <br></font></b><br>
+<b><font color="blue"> Best Provider VPN Tunelling Premium Private Account Protect & Secure Your Privacy | High Performace & Uptime Server <br></font></b><br>
 <font color ='red'>- No DDOS !!!</font><br>
 <font color ='red'>- No Torrent !!!</font><br>
 <font color ='red'>- No Carding !!!</font><br>
@@ -258,8 +258,7 @@ cat> /etc/issue.net << END
 <font color ='red'>- No Spamming !!!</font><br>
 <font color ='red'>- No Playstation Site !!!</font><br>
 <font color ='red'>- No Ilegal Activities !!!</font><br>
-<font color="green">Contact : t.me/aixxy7</font><br>
-<font color="#FFC107">Auto Reboot 12:10AM GMT+7 Asia/Jakarta</font>
+<font color="white">Group : t.me/xv7group</font><br>
 END
 
 #install bbr dan optimasi kernel
