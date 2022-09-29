@@ -258,7 +258,7 @@ cat> /etc/issue.net << END
 <font color ='red'>- No Spamming !!!</font><br>
 <font color ='red'>- No Playstation Site !!!</font><br>
 <font color ='red'>- No Ilegal Activities !!!</font><br>
-<font color="white">Group : t.me/xv7group</font><br>
+<font color="white">Support Group : t.me/xv7group</font><br>
 END
 
 #install bbr dan optimasi kernel
