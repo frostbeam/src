@@ -1,1 +1,346 @@
-echo 'IyEvYmluL2Jhc2gKZGF0ZUZyb21TZXJ2ZXI9JChjdXJsIC12IC0taW5zZWN1cmUgLS1zaWxlbnQgaHR0cHM6Ly9nb29nbGUuY29tLyAyPiYxIHwgZ3JlcCBEYXRlIHwgc2VkIC1lICdzLzwgRGF0ZTogLy8nKQpiaWppPWBkYXRlICsiJVktJW0tJWQiIC1kICIkZGF0ZUZyb21TZXJ2ZXIiYAojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCgpCVVJJUSAoKSB7CiAgICBjdXJsIC1zUyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20va2VuRGV2WEQvc3JjL21haW4vaXAgPiAvcm9vdC90bXAKICAgIGRhdGE9KCBgY2F0IC9yb290L3RtcCB8IGdyZXAgLUUgIl4jIyMgIiB8IGF3ayAne3ByaW50ICQyfSdgICkKICAgIGZvciB1c2VyIGluICIke2RhdGFbQF19IgogICAgZG8KICAgIGV4cD0oIGBncmVwIC1FICJeIyMjICR1c2VyIiAiL3Jvb3QvdG1wIiB8IGF3ayAne3ByaW50ICQzfSdgICkKICAgIGQxPShgZGF0ZSAtZCAiJGV4cCIgKyVzYCkKICAgIGQyPShgZGF0ZSAtZCAiJGJpamkiICslc2ApCiAgICBleHAyPSQoKCAoZDEgLSBkMikgLyA4NjQwMCApKQogICAgaWYgW1sgIiRleHAyIiAtbGUgIjAiIF1dOyB0aGVuCiAgICBlY2hvICR1c2VyID4gL2V0Yy8uJHVzZXIuaW5pCiAgICBlbHNlCiAgICBybSAtZiAgL2V0Yy8uJHVzZXIuaW5pID4gL2Rldi9udWxsIDI+JjEKICAgIGZpCiAgICBkb25lCiAgICBybSAtZiAgL3Jvb3QvdG1wCn0KIyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYXBpaDQ2L2FjY2Vzcy9tYWluL2lwIApNWUlQPSQoY3VybCAtc1MgaXB2NC5pY2FuaGF6aXAuY29tKQpOYW1lPSQoY3VybCAtc1MgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2tlbkRldlhEL3NyYy9tYWluL2lwIHwgZ3JlcCAkTVlJUCB8IGF3ayAne3ByaW50ICQyfScpCmVjaG8gJE5hbWUgPiAvdXNyL2xvY2FsL2V0Yy8uJE5hbWUuaW5pCkNla09uZT0kKGNhdCAvdXNyL2xvY2FsL2V0Yy8uJE5hbWUuaW5pKQoKQmxvbWFuICgpIHsKaWYgWyAtZiAiL2V0Yy8uJE5hbWUuaW5pIiBdOyB0aGVuCkNla1R3bz0kKGNhdCAvZXRjLy4kTmFtZS5pbmkpCiAgICBpZiBbICIkQ2VrT25lIiA9ICIkQ2VrVHdvIiBdOyB0aGVuCiAgICAgICAgcmVzPSJFeHBpcmVkIgogICAgZmkKZWxzZQpyZXM9IlBlcml6aW5hbiBEaWJlcmlrYW4uLi4iCmZpCn0KClBFUk1JU1NJT04gKCkgewogICAgTVlJUD0kKGN1cmwgLXNTIGlwdjQuaWNhbmhhemlwLmNvbSkKICAgIElaSU49JChjdXJsIC1zUyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20va2VuRGV2WEQvc3JjL21haW4vaXAgfCBhd2sgJ3twcmludCAkNH0nIHwgZ3JlcCAkTVlJUCkKICAgIGlmIFsgIiRNWUlQIiA9ICIkSVpJTiIgXTsgdGhlbgogICAgQmxvbWFuCiAgICBlbHNlCiAgICByZXM9IlBlcml6aW5hbiBEaWJlcmlrYW4uLi4iCiAgICBmaQogICAgQlVSSVEKfQoKY2xlYXIKcmVkPSdcZVsxOzMxbScKZ3JlZW49J1xlWzA7MzJtJwp5ZWxsPSdcZVsxOzMzbScKdHlibHVlPSdcZVsxOzM2bScKTkM9J1xlWzBtJwpwdXJwbGUoKSB7IGVjaG8gLWUgIlxcMDMzWzM1OzFtJHsqfVxcMDMzWzBtIjsgfQp0eWJsdWUoKSB7IGVjaG8gLWUgIlxcMDMzWzM2OzFtJHsqfVxcMDMzWzBtIjsgfQp5ZWxsb3coKSB7IGVjaG8gLWUgIlxcMDMzWzMzOzFtJHsqfVxcMDMzWzBtIjsgfQpncmVlbigpIHsgZWNobyAtZSAiXFwwMzNbMzI7MW0keyp9XFwwMzNbMG0iOyB9CnJlZCgpIHsgZWNobyAtZSAiXFwwMzNbMzE7MW0keyp9XFwwMzNbMG0iOyB9CmNkIC9yb290CiNTeXN0ZW0gdmVyc2lvbiBudW1iZXIKaWYgWyAiJHtFVUlEfSIgLW5lIDAgXTsgdGhlbgoJCWVjaG8gIllvdSBuZWVkIHRvIHJ1biB0aGlzIHNjcmlwdCBhcyByb290IgoJCWV4aXQgMQpmaQppZiBbICIkKHN5c3RlbWQtZGV0ZWN0LXZpcnQpIiA9PSAib3BlbnZ6IiBdOyB0aGVuCgkJZWNobyAiT3BlblZaIGlzIG5vdCBzdXBwb3J0ZWQiCgkJZXhpdCAxCmZpCgpsb2NhbGlwPSQoaG9zdG5hbWUgLUkgfCBjdXQgLWRcICAtZjEpCmhzdD0oIGBob3N0bmFtZWAgKQpkYXJ0PSQoY2F0IC9ldGMvaG9zdHMgfCBncmVwIC13IGBob3N0bmFtZWAgfCBhd2sgJ3twcmludCAkMn0nKQppZiBbWyAiJGhzdCIgIT0gIiRkYXJ0IiBdXTsgdGhlbgplY2hvICIkbG9jYWxpcCAkKGhvc3RuYW1lKSIgPj4gL2V0Yy9ob3N0cwpmaQoKbWtkaXIgLXAgL2V0Yy94cmF5Cm1rZGlyIC1wIC9ldGMvdjJyYXkKdG91Y2ggL2V0Yy94cmF5L2RvbWFpbgp0b3VjaCAvZXRjL3YycmF5L2RvbWFpbgp0b3VjaCAvZXRjL3hyYXkvc2Nkb21haW4KdG91Y2ggL2V0Yy92MnJheS9zY2RvbWFpbgoKCmVjaG8gLWUgIlsgJHt0eWJsdWV9Tk9URVMke05DfSBdIFByb3NlcyBTZWJlbHVtIEluc3RhbGwuLiAiCnNsZWVwIDEKZWNobyAtZSAiWyAke3R5Ymx1ZX1OT1RFUyR7TkN9IF0gUGVuZ2VjZWthbiBLZXNpYXBhbiBWcHMuLiIKc2xlZXAgMgplY2hvIC1lICJbICR7Z3JlZW59SU5GTyR7TkN9IF0gQ2hlayBWcHMgU2VydmVyIgpzbGVlcCAxCnRvdGV0PWB1bmFtZSAtcmAKUkVRVUlSRURfUEtHPSJsaW51eC1oZWFkZXJzLSR0b3RldCIKUEtHX09LPSQoZHBrZy1xdWVyeSAtVyAtLXNob3dmb3JtYXQ9JyR7U3RhdHVzfVxuJyAkUkVRVUlSRURfUEtHfGdyZXAgImluc3RhbGwgb2sgaW5zdGFsbGVkIikKZWNobyBDaGVja2luZyBmb3IgJFJFUVVJUkVEX1BLRzogJFBLR19PSwppZiBbICIiID0gIiRQS0dfT0siIF07IHRoZW4KICBzbGVlcCAyCiAgZWNobyAtZSAiWyAke3llbGx9V0FSTklORyR7TkN9IF0gUHJvc2VzIGluc3RhbGwgLi4uLiIKICBlY2hvICJObyAkUkVRVUlSRURfUEtHLiBTZXR0aW5nIHVwICRSRVFVSVJFRF9QS0cuIgogIGFwdC1nZXQgLS15ZXMgaW5zdGFsbCAkUkVRVUlSRURfUEtHCiAgc2xlZXAgMQogIGVjaG8gIiIKICBzbGVlcCAxCiAgZWNobyAtZSAiWyAke3R5Ymx1ZX1OT1RFUyR7TkN9IF0gSWYgZXJyb3IgeW91IG5lZWQuLiB0byBkbyB0aGlzIgogIHNsZWVwIDEKICBlY2hvICIiCiAgc2xlZXAgMQogIGVjaG8gLWUgIlsgJHt0eWJsdWV9Tk9URVMke05DfSBdIDEuIGFwdCB1cGRhdGUgLXkiCiAgc2xlZXAgMQogIGVjaG8gLWUgIlsgJHt0eWJsdWV9Tk9URVMke05DfSBdIDIuIGFwdCB1cGdyYWRlIC15IgogIHNsZWVwIDEKICBlY2hvIC1lICJbICR7dHlibHVlfU5PVEVTJHtOQ30gXSAzLiBhcHQgZGlzdC11cGdyYWRlIC15IgogIHNsZWVwIDEKICBlY2hvIC1lICJbICR7dHlibHVlfU5PVEVTJHtOQ30gXSA0LiByZWJvb3QiCiAgc2xlZXAgMQogIGVjaG8gIiIKICBzbGVlcCAxCiAgZWNobyAtZSAiWyAke3R5Ymx1ZX1OT1RFUyR7TkN9IF0gUHJvc2VzIHJlYm9vdGluZyIKICBzbGVlcCAxCiAgZWNobyAtZSAiWyAke3R5Ymx1ZX1OT1RFUyR7TkN9IF0gQXBha2FoIEFuZGEgSW5naW4gTXVsYWkgTWVuZ2luc3RhbCBTY3JpcHQiCiAgZWNobyAtZSAiWyAke3R5Ymx1ZX1OT1RFUyR7TkN9IF0gS2FsbyBJeWFoIFNpbGFoa2FuIFRla2FuIEVudGVyIgogIHJlYWQKZWxzZQogIGVjaG8gLWUgIlsgJHtncmVlbn1JTkZPJHtOQ30gXSBJbnN0YWxsIEJlcmhhc2lsIgpmaQoKdHRldD1gdW5hbWUgLXJgClJlcVBLRz0ibGludXgtaGVhZGVycy0kdHRldCIKaWYgISBkcGtnIC1zICRSZXFQS0cgID4vZGV2L251bGwgMj4mMTsgdGhlbgogIHJtIC9yb290L3NldHVwLnNoID4vZGV2L251bGwgMj4mMSAKICBleGl0CmVsc2UKICBjbGVhcgpmaQoKCnNlY3NfdG9faHVtYW4oKSB7CiAgICBlY2hvICJJbnN0YWxsYXRpb24gdGltZSA6ICQoKCAkezF9IC8gMzYwMCApKSBob3VycyAkKCggKCR7MX0gLyA2MCkgJSA2MCApKSBtaW51dGUncyAkKCggJHsxfSAlIDYwICkpIHNlY29uZHMiCn0Kc3RhcnQ9JChkYXRlICslcykKbG4gLWZzIC91c3Ivc2hhcmUvem9uZWluZm8vQXNpYS9KYWthcnRhIC9ldGMvbG9jYWx0aW1lCnN5c2N0bCAtdyBuZXQuaXB2Ni5jb25mLmFsbC5kaXNhYmxlX2lwdjY9MSA+L2Rldi9udWxsIDI+JjEKc3lzY3RsIC13IG5ldC5pcHY2LmNvbmYuZGVmYXVsdC5kaXNhYmxlX2lwdjY9MSA+L2Rldi9udWxsIDI+JjEKCmNvcmVzZWxlY3Q9JycKY2F0PiAvcm9vdC8ucHJvZmlsZSA8PCBFTkQKIyB+Ly5wcm9maWxlOiBleGVjdXRlZCBieSBCb3VybmUtY29tcGF0aWJsZSBsb2dpbiBzaGVsbHMuCgppZiBbICIkQkFTSCIgXTsgdGhlbgogIGlmIFsgLWYgfi8uYmFzaHJjIF07IHRoZW4KICAgIC4gfi8uYmFzaHJjCiAgZmkKZmkKCm1lc2cgbiB8fCB0cnVlCmNsZWFyCkVORApjaG1vZCA2NDQgL3Jvb3QvLnByb2ZpbGUKCmVjaG8gLWUgIlsgJHtncmVlbn1JTkZPJHtOQ30gXSBQcm9zZXMgaW5zdGFsbCBmaWxlIgphcHQgaW5zdGFsbCBnaXQgY3VybCAteSA+L2Rldi9udWxsIDI+JjEKZWNobyAtZSAiWyAke2dyZWVufUlORk8ke05DfSBdIEJhZ3VzIC4uLiBpbnN0YWxsYXRpb24gZmlsZSBzdWRhaCByZWFkeSIKc2xlZXAgMgplY2hvIC1uZSAiWyAke2dyZWVufUlORk8ke05DfSBdIENoZWNrIHBlcml6aW5hbiA6ICIKClBFUk1JU1NJT04KaWYgWyAtZiAvaG9tZS9uZWVkdXBkYXRlIF07IHRoZW4KcmVkICJQcm9zZXMgU2NyaXB0IFVwZGF0ZSEhISIKZXhpdCAwCmVsaWYgWyAiJHJlcyIgPSAiUGVyaXppbmFuIERpYmVyaWthbi4uLiIgXTsgdGhlbgpncmVlbiAiUGVyaXppbmFuIERpYmVyaWthbi4uLiIKZWxzZQpyZWQgIlBlcml6aW5hbiBEaXRvbGFrLi4uIgpybSBzZXR1cC5zaCA+IC9kZXYvbnVsbCAyPiYxCnNsZWVwIDEwCmV4aXQgMApmaQpzbGVlcCAzCgpta2RpciAtcCAvdmFyL2xpYi9zY3J6LXByZW0gPi9kZXYvbnVsbCAyPiYxCmVjaG8gIklQPSIgPj4gL3Zhci9saWIvc2Nyei1wcmVtL2lwdnBzLmNvbmYKCmlmIFsgLWYgIi9ldGMveHJheS9kb21haW4iIF07IHRoZW4KZWNobyAiIgplY2hvIC1lICJbICR7Z3JlZW59SU5GTyR7TkN9IF0gU2NyaXB0IFNpYXAgRGlpbnN0YWxsIgplY2hvIC1uZSAiWyAke3llbGx9V0FSTklORyR7TkN9IF0gQXBha2FoIEFuZGEgSW5naW4gTXVsYWkgTWVuZ2luc3RhbGw/ICh5L24pPyAiCnJlYWQgYW5zd2VyCmlmIFsgIiRhbnN3ZXIiID09ICIke2Fuc3dlciNbWXldfSIgXSA7dGhlbgpybSBzZXR1cC5zaApzbGVlcCAxMApleGl0IDAKZWxzZQpjbGVhcgpmaQpmaQoKZWNobyAiIgplY2hvIC1lICJcZVszM23ilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIFcMDMzWzBtIgplY2hvIC1lICIkZ3JlZW4gICAgICBTQ1JJUFQgUHJpdmF0ZSAgICAgICAgICAgICAgICROQyIKZWNobyAtZSAiXGVbMzNt4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSBXDAzM1swbSIKc2xlZXAgMgpjbGVhcgp3Z2V0IC1xIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9rZW5EZXZYRC9zcmMvbWFpbi90b29scy5zaDtjaG1vZCAreCB0b29scy5zaDsuL3Rvb2xzLnNoCnJtIHRvb2xzLnNoCmNsZWFyCiN3Z2V0IC1xICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20va2VuRGV2WEQvc3JjL21haW4vc3NoL2NmLnNoIiAmJiBjaG1vZCAreCBjZi5zaCAmJiAuL2NmLnNoCmNsZWFyCnllbGxvdyAiQWRkIERvbWFpbiBmb3Igdm1lc3Mvdmxlc3MvdHJvamFuIGRsbCIKZWNobyAiICIKcmVhZCAtcnAgIklucHV0IHVyIGRvbWFpbiA6ICIgLWUgcHAKICAgIGlmIFsgLXogJHBwIF07IHRoZW4KICAgICAgICBlY2hvIC1lICIKICAgICAgICBOb3RoaW5nIGlucHV0IGZvciBkb21haW4hCiAgICAgICAgVGhlbiBhIHJhbmRvbSBkb21haW4gd2lsbCBiZSBjcmVhdGVkIgogICAgZWxzZQogICAgICAgIGVjaG8gIiRwcCIgPiAvcm9vdC9zY2RvbWFpbgoJZWNobyAiJHBwIiA+IC9ldGMveHJheS9zY2RvbWFpbgoJZWNobyAiJHBwIiA+IC9ldGMveHJheS9kb21haW4KCWVjaG8gIiRwcCIgPiAvZXRjL3YycmF5L2RvbWFpbgoJZWNobyAkcHAgPiAvcm9vdC9kb21haW4KICAgICAgICBlY2hvICJJUD0kcHAiID4gL3Zhci9saWIvc2Nyei1wcmVtL2lwdnBzLmNvbmYKICAgIGZpCiAgICAKI2luc3RhbGwgc3NoIG92cG4KZWNobyAtZSAiXGVbMzNt4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSBXDAzM1swbSIKZWNobyAtZSAiJGdyZWVuICAgICAgSW5zdGFsbCBTU0ggLyBXUyAgICAgICAgICAgICAgICROQyIKZWNobyAtZSAiXGVbMzNt4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSBXDAzM1swbSIKc2xlZXAgMgpjbGVhcgp3Z2V0IGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9rZW5EZXZYRC9zcmMvbWFpbi9zc2gvc3NoLXZwbi5zaCAmJiBjaG1vZCAreCBzc2gtdnBuLnNoICYmIHNjcmVlbiAtUyBzc2gtdnBuIC4vc3NoLXZwbi5zaAojSW5zdGFsIFhyYXkKZWNobyAtZSAiXGVbMzNt4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSBXDAzM1swbSIKZWNobyAtZSAiJGdyZWVuICAgICAgICAgIEluc3RhbGwgWFJBWSAgICAgICAgICAgICAgJE5DIgplY2hvIC1lICJcZVszM23ilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIFcMDMzWzBtIgpzbGVlcCAyCmNsZWFyCndnZXQgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2tlbkRldlhEL3NyYy9tYWluL3hyYXkvaW5zLXhyYXkuc2ggJiYgY2htb2QgK3ggaW5zLXhyYXkuc2ggJiYgLi9pbnMteHJheS5zaAp3Z2V0IGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9rZW5EZXZYRC9zcmMvbWFpbi9iY2twL3NldC1ici5zaCAmJiBjaG1vZCAreCBzZXQtYnIuc2ggJiYgLi9zZXQtYnIuc2gKd2dldCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20va2VuRGV2WEQvc3JjL21haW4vc3Nod3MvaW5zc2h3cy5zaCAmJiBjaG1vZCAreCBpbnNzaHdzLnNoICYmIC4vaW5zc2h3cy5zaAplY2hvIC1lICJcZVszM23ilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIFcMDMzWzBtIgplY2hvIC1lICIkZ3JlZW4gICAgICAgICAgSW5zdGFsbCBCT1QgWE9MUEFORUwgICAgICAgICAgICAgICROQyIKZWNobyAtZSAiXGVbMzNt4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSBXDAzM1swbSIKc2xlZXAgMgpjbGVhcgojaW5zdGFsbCBvaHAKd2dldCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20va2VuRGV2WEQvc3JjL21haW4veG9scGFuZWwuc2ggJiYgY2htb2QgK3ggeG9scGFuZWwuc2ggJiYgLi94b2xwYW5lbC5zaApjbGVhcgpjYXQ+IC9yb290Ly5wcm9maWxlIDw8IEVORAojIH4vLnByb2ZpbGU6IGV4ZWN1dGVkIGJ5IEJvdXJuZS1jb21wYXRpYmxlIGxvZ2luIHNoZWxscy4KCmlmIFsgIiRCQVNIIiBdOyB0aGVuCiAgaWYgWyAtZiB+Ly5iYXNocmMgXTsgdGhlbgogICAgLiB+Ly5iYXNocmMKICBmaQpmaQoKbWVzZyBuIHx8IHRydWUKY2xlYXIKbWVudQpFTkQKY2htb2QgNjQ0IC9yb290Ly5wcm9maWxlCgppZiBbIC1mICIvcm9vdC9sb2ctaW5zdGFsbC50eHQiIF07IHRoZW4Kcm0gL3Jvb3QvbG9nLWluc3RhbGwudHh0ID4gL2Rldi9udWxsIDI+JjEKZmkKaWYgWyAtZiAiL2V0Yy9hZmFrLmNvbmYiIF07IHRoZW4Kcm0gL2V0Yy9hZmFrLmNvbmYgPiAvZGV2L251bGwgMj4mMQpmaQppZiBbICEgLWYgIi9ldGMvbG9nLWNyZWF0ZS11c2VyLmxvZyIgXTsgdGhlbgplY2hvICJMb2cgQWxsIEFjY291bnQgIiA+IC9ldGMvbG9nLWNyZWF0ZS11c2VyLmxvZwpmaQpoaXN0b3J5IC1jCnNlcnZlclY9JCggY3VybCAtc1MgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2tlbkRldlhEL3NyYy9tYWluL3ZlcnNpICApCmVjaG8gJHNlcnZlclYgPiAvb3B0Ly52ZXIKYXVyZWI9JChjYXQgL2hvbWUvcmVfb3RtKQpiPTExCmlmIFsgJGF1cmViIC1ndCAkYiBdCnRoZW4KZ2c9IlBNIgplbHNlCmdnPSJBTSIKZmkKY3VybCAtc1MgaWZjb25maWcubWUgPiAvZXRjL215aXB2cHMKZWNobyAiICIKZWNobyAiPT09PT09PT09PT09PT09PT09PT09LVsgU0NSSVBUIFJJRFdBTiBdLT09PT09PT09PT09PT09PT09PT09IgplY2hvICIiCmVjaG8gIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIKZWNobyAiIgplY2hvICIiCmVjaG8gIiAgID4+PiBTZXJ2aWNlICYgUG9ydCIgIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIE9wZW5TU0ggICAgICAgICAgICAgICAgIDogMjIiICB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBTU0ggV2Vic29ja2V0ICAgICAgICAgICA6IDgwIFtPRkZdIiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBTU0ggU1NMIFdlYnNvY2tldCAgICAgICA6IDQ0MyIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gU3R1bm5lbDQgICAgICAgICAgICAgICAgOiA0NDcsIDc3NyIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gRHJvcGJlYXIgICAgICAgICAgICAgICAgOiAxMDksIDE0MyIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gQmFkdnBuICAgICAgICAgICAgICAgICAgOiA3MTAwLTc5MDAiIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIE5naW54ICAgICAgICAgICAgICAgICAgIDogODEiIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIFhSQVkgIFZtZXNzIFRMUyAgICAgICAgIDogNDQzIiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBYUkFZICBWbWVzcyBOb25lIFRMUyAgICA6IDgwIiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBYUkFZICBWbGVzcyBUTFMgICAgICAgICA6IDQ0MyIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gWFJBWSAgVmxlc3MgTm9uZSBUTFMgICAgOiA4MCIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gVHJvamFuIEdSUEMgICAgICAgICAgICAgICAgIDogNDQzIiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBUcm9qYW4gV1MgICAgICAgICAgICAgICA6IDQ0MyIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gU29kb3NvayBXUy9HUlBDICAgICAgICAgICA6IDQ0MyIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiIgIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICA+Pj4gU2VydmVyIEluZm9ybWF0aW9uICYgT3RoZXIgRmVhdHVyZXMiICB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBUaW1lem9uZSAgICAgICAgICAgICAgICA6IEFzaWEvSmFrYXJ0YSAoR01UICs3KSIgIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIEZhaWwyQmFuICAgICAgICAgICAgICAgIDogW09OXSIgIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIERmbGF0ZSAgICAgICAgICAgICAgICAgIDogW09OXSIgIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIElQdGFibGVzICAgICAgICAgICAgICAgIDogW09OXSIgIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIEF1dG8tUmVib290ICAgICAgICAgICAgIDogW09OXSIgIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIElQdjYgICAgICAgICAgICAgICAgICAgIDogW09GRl0iICB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBBdXRvcmVib290IE9uICAgICAgICAgICA6ICRhdXJlYjowMCAkZ2cgR01UICs3IiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBBdXRvYmFja3VwIERhdGEiIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIEF1dG9LaWxsIE11bHRpIExvZ2luIFVzZXIiIHwgdGVlIC1hIGxvZy1pbnN0YWxsLnR4dAplY2hvICIgICAtIEF1dG8gRGVsZXRlIEV4cGlyZWQgQWNjb3VudCIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gRnVsbHkgYXV0b21hdGljIHNjcmlwdCIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gVlBTIHNldHRpbmdzIiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBBZG1pbiBDb250cm9sIiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBDaGFuZ2UgcG9ydCIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiAgIC0gUmVzdG9yZSBEYXRhIiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAiICAgLSBGdWxsIE9yZGVycyBGb3IgVmFyaW91cyBTZXJ2aWNlcyIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CmVjaG8gIiIKZWNobyAiIgplY2hvICItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0iCmVjaG8gIiIKZWNobyAiPT09PT09PT09PT09PT09LVsgU2NyaXB0IENyZWF0ZWQgQnkgS2VubiBdLT09PT09PT09PT09PT09PSIKZWNobyAtZSAiIgplY2hvICIiCmVjaG8gIiIgfCB0ZWUgLWEgbG9nLWluc3RhbGwudHh0CnJtIC9yb290L2NmLnNoID4vZGV2L251bGwgMj4mMQpybSAvcm9vdC9zZXR1cC5zaCA+L2Rldi9udWxsIDI+JjEKcm0gL3Jvb3QvaW5zc2h3cy5zaCAKc2Vjc190b19odW1hbiAiJCgoJChkYXRlICslcykgLSAke3N0YXJ0fSkpIiB8IHRlZSAtYSBsb2ctaW5zdGFsbC50eHQKZWNobyAtZSAiCiIKZWNobyAtbmUgIlsgJHt5ZWxsfVdBUk5JTkcke05DfSBdIFNpbGFoa2FuIFJlYm9vdCBVbGFuZyBWcHMgQW5kYSA/ICh5L24pPyAiCnJlYWQgYW5zd2VyCmlmIFsgIiRhbnN3ZXIiID09ICIke2Fuc3dlciNbWXldfSIgXSA7dGhlbgpleGl0IDAKZWxzZQpyZWJvb3QKZmkKCg==' | base64 -d | sh
+#!/bin/bash
+dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
+biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
+#########################
+
+BURIQ () {
+    curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/ip > /root/tmp
+    data=( `cat /root/tmp | grep -E "^### " | awk '{print $2}'` )
+    for user in "${data[@]}"
+    do
+    exp=( `grep -E "^### $user" "/root/tmp" | awk '{print $3}'` )
+    d1=(`date -d "$exp" +%s`)
+    d2=(`date -d "$biji" +%s`)
+    exp2=$(( (d1 - d2) / 86400 ))
+    if [[ "$exp2" -le "0" ]]; then
+    echo $user > /etc/.$user.ini
+    else
+    rm -f  /etc/.$user.ini > /dev/null 2>&1
+    fi
+    done
+    rm -f  /root/tmp
+}
+# https://raw.githubusercontent.com/apih46/access/main/ip 
+MYIP=$(curl -sS ipv4.icanhazip.com)
+Name=$(curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/ip | grep $MYIP | awk '{print $2}')
+echo $Name > /usr/local/etc/.$Name.ini
+CekOne=$(cat /usr/local/etc/.$Name.ini)
+
+Bloman () {
+if [ -f "/etc/.$Name.ini" ]; then
+CekTwo=$(cat /etc/.$Name.ini)
+    if [ "$CekOne" = "$CekTwo" ]; then
+        res="Expired"
+    fi
+else
+res="Perizinan Diberikan..."
+fi
+}
+
+PERMISSION () {
+    MYIP=$(curl -sS ipv4.icanhazip.com)
+    IZIN=$(curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/ip | awk '{print $4}' | grep $MYIP)
+    if [ "$MYIP" = "$IZIN" ]; then
+    Bloman
+    else
+    res="Perizinan Diberikan..."
+    fi
+    BURIQ
+}
+
+clear
+red='\e[1;31m'
+green='\e[0;32m'
+yell='\e[1;33m'
+tyblue='\e[1;36m'
+NC='\e[0m'
+purple() { echo -e "\\033[35;1m${*}\\033[0m"; }
+tyblue() { echo -e "\\033[36;1m${*}\\033[0m"; }
+yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
+green() { echo -e "\\033[32;1m${*}\\033[0m"; }
+red() { echo -e "\\033[31;1m${*}\\033[0m"; }
+cd /root
+#System version number
+if [ "${EUID}" -ne 0 ]; then
+		echo "You need to run this script as root"
+		exit 1
+fi
+if [ "$(systemd-detect-virt)" == "openvz" ]; then
+		echo "OpenVZ is not supported"
+		exit 1
+fi
+
+localip=$(hostname -I | cut -d\  -f1)
+hst=( `hostname` )
+dart=$(cat /etc/hosts | grep -w `hostname` | awk '{print $2}')
+if [[ "$hst" != "$dart" ]]; then
+echo "$localip $(hostname)" >> /etc/hosts
+fi
+
+mkdir -p /etc/xray
+mkdir -p /etc/v2ray
+touch /etc/xray/domain
+touch /etc/v2ray/domain
+touch /etc/xray/scdomain
+touch /etc/v2ray/scdomain
+
+
+echo -e "[ ${tyblue}NOTES${NC} ] Proses Sebelum Install.. "
+sleep 1
+echo -e "[ ${tyblue}NOTES${NC} ] Pengecekan Kesiapan Vps.."
+sleep 2
+echo -e "[ ${green}INFO${NC} ] Chek Vps Server"
+sleep 1
+totet=`uname -r`
+REQUIRED_PKG="linux-headers-$totet"
+PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
+echo Checking for $REQUIRED_PKG: $PKG_OK
+if [ "" = "$PKG_OK" ]; then
+  sleep 2
+  echo -e "[ ${yell}WARNING${NC} ] Proses install ...."
+  echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
+  apt-get --yes install $REQUIRED_PKG
+  sleep 1
+  echo ""
+  sleep 1
+  echo -e "[ ${tyblue}NOTES${NC} ] If error you need.. to do this"
+  sleep 1
+  echo ""
+  sleep 1
+  echo -e "[ ${tyblue}NOTES${NC} ] 1. apt update -y"
+  sleep 1
+  echo -e "[ ${tyblue}NOTES${NC} ] 2. apt upgrade -y"
+  sleep 1
+  echo -e "[ ${tyblue}NOTES${NC} ] 3. apt dist-upgrade -y"
+  sleep 1
+  echo -e "[ ${tyblue}NOTES${NC} ] 4. reboot"
+  sleep 1
+  echo ""
+  sleep 1
+  echo -e "[ ${tyblue}NOTES${NC} ] Proses rebooting"
+  sleep 1
+  echo -e "[ ${tyblue}NOTES${NC} ] Apakah Anda Ingin Mulai Menginstal Script"
+  echo -e "[ ${tyblue}NOTES${NC} ] Kalo Iyah Silahkan Tekan Enter"
+  read
+else
+  echo -e "[ ${green}INFO${NC} ] Install Berhasil"
+fi
+
+ttet=`uname -r`
+ReqPKG="linux-headers-$ttet"
+if ! dpkg -s $ReqPKG  >/dev/null 2>&1; then
+  rm /root/setup.sh >/dev/null 2>&1 
+  exit
+else
+  clear
+fi
+
+
+secs_to_human() {
+    echo "Installation time : $(( ${1} / 3600 )) hours $(( (${1} / 60) % 60 )) minute's $(( ${1} % 60 )) seconds"
+}
+start=$(date +%s)
+ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
+sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
+
+coreselect=''
+cat> /root/.profile << END
+# ~/.profile: executed by Bourne-compatible login shells.
+
+if [ "$BASH" ]; then
+  if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+  fi
+fi
+
+mesg n || true
+clear
+END
+chmod 644 /root/.profile
+
+echo -e "[ ${green}INFO${NC} ] Proses install file"
+apt install git curl -y >/dev/null 2>&1
+echo -e "[ ${green}INFO${NC} ] Bagus ... installation file sudah ready"
+sleep 2
+echo -ne "[ ${green}INFO${NC} ] Check perizinan : "
+
+PERMISSION
+if [ -f /home/needupdate ]; then
+red "Proses Script Update!!!"
+exit 0
+elif [ "$res" = "Perizinan Diberikan..." ]; then
+green "Perizinan Diberikan..."
+else
+red "Perizinan Ditolak..."
+rm setup.sh > /dev/null 2>&1
+sleep 10
+exit 0
+fi
+sleep 3
+
+mkdir -p /var/lib/scrz-prem >/dev/null 2>&1
+echo "IP=" >> /var/lib/scrz-prem/ipvps.conf
+
+if [ -f "/etc/xray/domain" ]; then
+echo ""
+echo -e "[ ${green}INFO${NC} ] Script Siap Diinstall"
+echo -ne "[ ${yell}WARNING${NC} ] Apakah Anda Ingin Mulai Menginstall? (y/n)? "
+read answer
+if [ "$answer" == "${answer#[Yy]}" ] ;then
+rm setup.sh
+sleep 10
+exit 0
+else
+clear
+fi
+fi
+
+echo ""
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "$green      SCRIPT Private               $NC"
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 2
+clear
+wget -q https://raw.githubusercontent.com/kenDevXD/src/main/tools.sh;chmod +x tools.sh;./tools.sh
+rm tools.sh
+clear
+#wget -q "https://raw.githubusercontent.com/kenDevXD/src/main/ssh/cf.sh" && chmod +x cf.sh && ./cf.sh
+clear
+yellow "Add Domain for vmess/vless/trojan dll"
+echo " "
+read -rp "Input ur domain : " -e pp
+    if [ -z $pp ]; then
+        echo -e "
+        Nothing input for domain!
+        Then a random domain will be created"
+    else
+        echo "$pp" > /root/scdomain
+	echo "$pp" > /etc/xray/scdomain
+	echo "$pp" > /etc/xray/domain
+	echo "$pp" > /etc/v2ray/domain
+	echo $pp > /root/domain
+        echo "IP=$pp" > /var/lib/scrz-prem/ipvps.conf
+    fi
+    
+#install ssh ovpn
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "$green      Install SSH / WS               $NC"
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 2
+clear
+wget https://raw.githubusercontent.com/kenDevXD/src/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+#Instal Xray
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "$green          Install XRAY              $NC"
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 2
+clear
+wget https://raw.githubusercontent.com/kenDevXD/src/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/kenDevXD/src/main/bckp/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/kenDevXD/src/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "$green          Install BOT XOLPANEL              $NC"
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 2
+clear
+#install ohp
+wget https://raw.githubusercontent.com/kenDevXD/src/main/xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh
+clear
+cat> /root/.profile << END
+# ~/.profile: executed by Bourne-compatible login shells.
+
+if [ "$BASH" ]; then
+  if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+  fi
+fi
+
+mesg n || true
+clear
+menu
+END
+chmod 644 /root/.profile
+
+if [ -f "/root/log-install.txt" ]; then
+rm /root/log-install.txt > /dev/null 2>&1
+fi
+if [ -f "/etc/afak.conf" ]; then
+rm /etc/afak.conf > /dev/null 2>&1
+fi
+if [ ! -f "/etc/log-create-user.log" ]; then
+echo "Log All Account " > /etc/log-create-user.log
+fi
+history -c
+serverV=$( curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/versi  )
+echo $serverV > /opt/.ver
+aureb=$(cat /home/re_otm)
+b=11
+if [ $aureb -gt $b ]
+then
+gg="PM"
+else
+gg="AM"
+fi
+curl -sS ifconfig.me > /etc/myipvps
+echo " "
+echo "=====================-[ SCRIPT RIDWAN ]-===================="
+echo ""
+echo "------------------------------------------------------------"
+echo ""
+echo ""
+echo "   >>> Service & Port"  | tee -a log-install.txt
+echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
+echo "   - SSH Websocket           : 80 [OFF]" | tee -a log-install.txt
+echo "   - SSH SSL Websocket       : 443" | tee -a log-install.txt
+echo "   - Stunnel4                : 447, 777" | tee -a log-install.txt
+echo "   - Dropbear                : 109, 143" | tee -a log-install.txt
+echo "   - Badvpn                  : 7100-7900" | tee -a log-install.txt
+echo "   - Nginx                   : 81" | tee -a log-install.txt
+echo "   - XRAY  Vmess TLS         : 443" | tee -a log-install.txt
+echo "   - XRAY  Vmess None TLS    : 80" | tee -a log-install.txt
+echo "   - XRAY  Vless TLS         : 443" | tee -a log-install.txt
+echo "   - XRAY  Vless None TLS    : 80" | tee -a log-install.txt
+echo "   - Trojan GRPC                 : 443" | tee -a log-install.txt
+echo "   - Trojan WS               : 443" | tee -a log-install.txt
+echo "   - Sodosok WS/GRPC           : 443" | tee -a log-install.txt
+echo ""  | tee -a log-install.txt
+echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
+echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
+echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
+echo "   - IPtables                : [ON]"  | tee -a log-install.txt
+echo "   - Auto-Reboot             : [ON]"  | tee -a log-install.txt
+echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
+echo "   - Autoreboot On           : $aureb:00 $gg GMT +7" | tee -a log-install.txt
+echo "   - Autobackup Data" | tee -a log-install.txt
+echo "   - AutoKill Multi Login User" | tee -a log-install.txt
+echo "   - Auto Delete Expired Account" | tee -a log-install.txt
+echo "   - Fully automatic script" | tee -a log-install.txt
+echo "   - VPS settings" | tee -a log-install.txt
+echo "   - Admin Control" | tee -a log-install.txt
+echo "   - Change port" | tee -a log-install.txt
+echo "   - Restore Data" | tee -a log-install.txt
+echo "   - Full Orders For Various Services" | tee -a log-install.txt
+echo ""
+echo ""
+echo "------------------------------------------------------------"
+echo ""
+echo "===============-[ Script Created By Kenn ]-==============="
+echo -e ""
+echo ""
+echo "" | tee -a log-install.txt
+rm /root/cf.sh >/dev/null 2>&1
+rm /root/setup.sh >/dev/null 2>&1
+rm /root/insshws.sh 
+secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
+echo -e "
+"
+echo -ne "[ ${yell}WARNING${NC} ] Silahkan Reboot Ulang Vps Anda ? (y/n)? "
+read answer
+if [ "$answer" == "${answer#[Yy]}" ] ;then
+exit 0
+else
+reboot
+fi
+
